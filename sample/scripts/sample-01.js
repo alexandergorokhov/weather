@@ -40,34 +40,22 @@ angular.module('sample-01', ['adf', 'LocalStorageModule'])
             widgets: [
 
               {
-                type: "weather",
+                type: "weatherTemperature",
                 config: {
-                  location: "Hildesheim"
+                  location: "Buenos Aires"
                 },
-                title: "Temperatura"
+                title: "Temperature"
               }]
           },
           {
             styleClass: "col-md-3",
             widgets: [
               {
-                type: "weather",
+                type: "weatherPressure",
                 config: {
-                  location: "Edinburgh"
+                  location: "Buenos Aires"
                 },
-                title: "Presion"
-              }]
-          },
-          {
-            styleClass: "col-md-3",
-            widgets: [
-              {
-
-                type: "weather",
-                config: {
-                  location: "Dublin,IE"
-                },
-                title: "Humedad"
+                title: "Pressure"
               }]
           },
           {
@@ -75,11 +63,11 @@ angular.module('sample-01', ['adf', 'LocalStorageModule'])
             widgets: [
               {
 
-                type: "weather",
+                type: "weatherHumidity",
                 config: {
-                  location: "Dublin,IE"
+                  location: "Buenos Aires"
                 },
-                title: "Probabilidad de lluvia"
+                title: "Humidity"
               }]
           },
           {
@@ -87,50 +75,14 @@ angular.module('sample-01', ['adf', 'LocalStorageModule'])
             widgets: [
               {
 
-                type: "weather",
+                type: "weatherRain",
                 config: {
-                  location: "Dublin,IE"
+                  location: "Buenos Aires"
                 },
-                title: "Temperatura"
+                title: "Rain probability"
               }]
           },
-          {
-            styleClass: "col-md-3",
-            widgets: [
-              {
-
-                type: "weather",
-                config: {
-                  location: "Dublin,IE"
-                },
-                title: "Presion"
-              }]
-          },
-          {
-            styleClass: "col-md-3",
-            widgets: [
-              {
-
-                type: "weather",
-                config: {
-                  location: "Dublin,IE"
-                },
-                title: "Humedad"
-              }]
-          },
-          {
-            styleClass: "col-md-3",
-            widgets: [
-              {
-
-                type: "weather",
-                config: {
-                  location: "Dublin,IE"
-                },
-                title: "Probabilidad de lluvia"
-              }]
-          },
-          {
+         /* {
             styleClass: "col-md-3",
             widgets: [
               {
@@ -178,6 +130,54 @@ angular.module('sample-01', ['adf', 'LocalStorageModule'])
                 title: "Probabilidad de lluvia"
               }]
           },
+          {
+            styleClass: "col-md-3",
+            widgets: [
+              {
+
+                type: "weather",
+                config: {
+                  location: "Dublin,IE"
+                },
+                title: "Temperatura"
+              }]
+          },
+          {
+            styleClass: "col-md-3",
+            widgets: [
+              {
+
+                type: "weather",
+                config: {
+                  location: "Dublin,IE"
+                },
+                title: "Presion"
+              }]
+          },
+          {
+            styleClass: "col-md-3",
+            widgets: [
+              {
+
+                type: "weather",
+                config: {
+                  location: "Dublin,IE"
+                },
+                title: "Humedad"
+              }]
+          },
+          {
+            styleClass: "col-md-3",
+            widgets: [
+              {
+
+                type: "weather",
+                config: {
+                  location: "Dublin,IE"
+                },
+                title: "Probabilidad de lluvia"
+              }]
+          },*/
 
 
 

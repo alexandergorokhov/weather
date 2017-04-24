@@ -1,4 +1,7 @@
-angular.module('adf.widget.weatherService', ['adf.provider','adf.widget.weather'])
+angular.module('adf.widget.weatherService', ['adf.provider','adf.widget.weather',
+'adf.widget.weatherTemperature','adf.widget.weatherPressure','adf.widget.weatherHumidity',
+  'adf.widget.weatherRain'])
+
   .service('weatherService', function($q, $http, weatherServiceUrl, weatherApiKey){
   return {
     get: function(location){
