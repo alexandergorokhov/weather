@@ -28,6 +28,7 @@ angular.module('sample', [
   // 'adf.widget.news',
   //'adf.widget.randommsg',
    'adf.widget.weather',
+// 'weatherService',
  // 'adf.widget.markdown', 'adf.widget.linklist',
   //'adf.widget.github', 'adf.widget.version',
   //'adf.widget.clock', 'adf.widget.travis',
