@@ -50,7 +50,9 @@
 
     <script type="text/javascript">
       angular
-       .module('adfWidgetSample', ['adf', 'adf.widget.weatherTemperature', 'LocalStorageModule'])
+       .module('adfWidgetSample', ['adf',
+         'adf.widget.weatherTemperature',
+       'LocalStorageModule'])
        .config(function(dashboardProvider, localStorageServiceProvider){
          localStorageServiceProvider.setPrefix('adf.weatherTemperature');
          dashboardProvider.structure('4-8', {
